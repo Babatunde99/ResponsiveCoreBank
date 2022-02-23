@@ -41,6 +41,27 @@ body {
   padding-top: 10px;
 }
 
+.section1 {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  background-image: url(/images/section1Bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vw;
+}
+
+.section1 h1 {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.section1 p {
+  font-size: 12px;
+  width: 200px;
+  font-weight: 400;
+}
+
 @media screen and (min-width: 962px) {
   .none {
     display: -webkit-box;

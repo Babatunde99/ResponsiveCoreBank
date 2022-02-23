@@ -19,6 +19,26 @@
   align-items: center;
   padding-top: 10px;
 }
+.section1 {
+  padding-left: $sidePadding;
+  padding-right: $sidePadding;
+  background-image: url(/images/section1Bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vw;
+
+  h1 {
+      padding-top: 10px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+    width: 200px;
+    font-weight: 400;
+  }
+}
+
 @media screen and (min-width: 962px) {
   .none {
     display: flex;

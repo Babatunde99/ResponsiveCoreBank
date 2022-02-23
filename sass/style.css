@@ -53,7 +53,9 @@ body {
 
 .section1 h1 {
   padding-top: 10px;
-  font-size: 20px;
+  line-height: 1.5pc;
+  font-size: 18px;
+  padding-bottom: 5px;
 }
 
 .section1 p {
@@ -137,6 +139,26 @@ body {
     height: 43px;
     color: #fff;
     font-weight: 600;
+  }
+  .section1 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-image: url(/images/section1Bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vw;
+  }
+  .section1 h1 {
+    padding-top: 30px;
+    font-size: 8vw;
+    line-height: 6pc;
+    padding-bottom: 20px;
+  }
+  .section1 p {
+    font-size: 30px;
+    width: 500px;
+    font-weight: 400;
   }
 }
 /*# sourceMappingURL=style.css.map */

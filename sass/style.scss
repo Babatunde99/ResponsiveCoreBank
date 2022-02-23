@@ -13,12 +13,12 @@
   background-color: $headBgcolor;
 }
 .headerSec2 {
-    @include flex;
-    padding-left: $sidePadding;
-    padding-right: $sidePadding;
-    align-items: center;
-    padding-top: 10px;
-
+  @include flex;
+  padding-left: $sidePadding;
+  padding-right: $sidePadding;
+  align-items: center;
+  padding-top: 10px;
+}
 @media screen and (min-width: 962px) {
   .none {
     display: flex;
@@ -48,10 +48,12 @@
     align-items: center;
     padding-top: 10px;
 
-    ul {
-      @include flex;
-      list-style-type: none;
-      gap: $smallSpace;
+    .none {
+      ul {
+        @include flex;
+        list-style-type: none;
+        gap: $smallSpace;
+      }
     }
   }
   .menuLine {
@@ -60,10 +62,9 @@
   .getAppBtn {
     background: linear-gradient(180deg, #ef9b11 0%, #405558 100%);
     border-radius: 10px;
-    width:136px;
-    height:43px;
+    width: 136px;
+    height: 43px;
     color: #fff;
-    font-weight:600;
+    font-weight: 600;
   }
-}
 }

@@ -1,4 +1,69 @@
 @import "variables";
 @import "global";
+@import "mixin";
 
+.none {
+  display: none;
+}
 
+.headerSec1 {
+  @include flex;
+  padding-left: $sidePadding;
+  padding-right: $sidePadding;
+  background-color: $headBgcolor;
+}
+.headerSec2 {
+    @include flex;
+    padding-left: $sidePadding;
+    padding-right: $sidePadding;
+    align-items: center;
+    padding-top: 10px;
+
+@media screen and (min-width: 962px) {
+  .none {
+    display: flex;
+    align-self: center;
+    gap: $smallSpace;
+    img {
+      align-self: center;
+    }
+  }
+  .directory {
+    @include flex;
+    gap: $smallSpace;
+    color: #fff;
+    align-items: center;
+  }
+  .contact {
+    @include flex;
+    gap: $smallSpace;
+    color: #fff;
+    align-items: center;
+  }
+
+  .headerSec2 {
+    @include flex;
+    padding-left: $sidePadding;
+    padding-right: $sidePadding;
+    align-items: center;
+    padding-top: 10px;
+
+    ul {
+      @include flex;
+      list-style-type: none;
+      gap: $smallSpace;
+    }
+  }
+  .menuLine {
+    display: none;
+  }
+  .getAppBtn {
+    background: linear-gradient(180deg, #ef9b11 0%, #405558 100%);
+    border-radius: 10px;
+    width:136px;
+    height:43px;
+    color: #fff;
+    font-weight:600;
+  }
+}
+}

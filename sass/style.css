@@ -9,4 +9,113 @@
 body {
   font-family: "Poppins";
 }
+
+.none {
+  display: none;
+}
+
+.headerSec1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  background-color: rgba(64, 85, 88, 0.6);
+}
+
+.headerSec2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 962px) {
+  .headerSec2 .none {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    gap: 20px;
+  }
+  .headerSec2 .none img {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .headerSec2 .directory {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 20px;
+    color: #fff;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .headerSec2 .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 20px;
+    color: #fff;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .headerSec2 .headerSec2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 10px;
+  }
+  .headerSec2 .headerSec2 ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style-type: none;
+    gap: 20px;
+  }
+  .headerSec2 .menuLine {
+    display: none;
+  }
+  .headerSec2 .getAppBtn {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ef9b11), to(#405558));
+    background: linear-gradient(180deg, #ef9b11 0%, #405558 100%);
+    border-radius: 10px;
+    width: 136px;
+    height: 43px;
+    color: #fff;
+    font-weight: 600;
+  }
+}
 /*# sourceMappingURL=style.css.map */

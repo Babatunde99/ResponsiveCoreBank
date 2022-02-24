@@ -31,8 +31,7 @@
   h1 {
     line-height: 1.25;
     font-size: 8vw;
-    padding-bottom:10px;
-
+    padding-bottom: 10px;
   }
   p {
     font-size: 3vw;
@@ -40,15 +39,47 @@
     font-weight: 400;
   }
 }
+.section2 {
+  background-image: url(/images/sectionTwoBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whatWeDo {
+  padding-left: $sidePadding;
+  padding-right: $sidePadding;
+  padding-top: 80px;
+
+  .finFreedom {
+    display: flex;
+    gap: $smallSpace;
+    align-items: center;
+  }
+  .WwdLists-item {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    min-height: 450px;
+    padding-left: 28px;
+    padding-top: 60px;
+
+    img {
+      padding-bottom: 10px;
+    }
+    p {
+      padding-top: 5x;
+      line-height: 30px;
+    }
+  }
+}
+.botmLine{
+    padding-top: 50px;
+    text-align: center;}
 
 @media screen and (min-width: 962px) {
   .none {
     display: flex;
     align-self: center;
     gap: $smallSpace;
-    img {
-      align-self: center;
-    }
   }
   .directory {
     @include flex;
@@ -100,14 +131,64 @@
 
     h1 {
       padding-top: 50px;
-      font-size: 8vw;
-      line-height:10vw;
+      font-size: 6vw;
+      line-height: 10vw;
       padding-bottom: 20px;
     }
     p {
-      font-size: 3vw;
-      width: 60vw;
+      font-size: 2vw;
+      width: 50vw;
       font-weight: 400;
     }
   }
-}
+  .section2 {
+    height: 1000px;
+  }
+  .finances {
+    display: flex;
+    padding-left: $sidePadding;
+    padding-right: $sidePadding;
+    justify-content: space-between;
+    width: 100%;
+
+    .finBox {
+      width: 160px;
+      height: 160px;
+      padding: 12px 30px;
+      padding-top: 20px;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      p {
+        font-weight: 600;
+        line-height: 50px;
+      }
+    }
+  }
+  .whatWeDo{
+      h3{
+        font-weight: bold;
+        font-size: 50px;
+      }
+  }
+  .WwdLists{
+      display: flex;
+      justify-content: space-between;
+  }
+  .WwdLists-item {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+
+    .girlholdingphone {
+      width: 77%
+    }
+  }
+  .botmLine{
+      padding-top: 100px;
+      text-align: center;
+  }
+  }
+
+

@@ -65,15 +65,69 @@
     img {
       padding-bottom: 10px;
     }
+    h4 {
+      padding-top: 10px;
+    }
     p {
-      padding-top: 5x;
+      padding-top: 10px;
       line-height: 30px;
     }
   }
 }
-.botmLine{
-    padding-top: 50px;
-    text-align: center;}
+
+.botmLine {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.section3 {
+  background: linear-gradient(
+    180deg,
+    rgba(239, 155, 17, 0.5) 0%,
+    rgba(64, 85, 88, 0.5) 100%
+  );
+  padding-left: $sidePadding;
+  padding-right: $sidePadding;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  h2 {
+    color: #ffffff;
+  }
+  p {
+    font-size: 12px;
+    color: #ffffff;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    line-height: 30px;
+    padding-top: 20px;
+  }
+  .finFree {
+    display: flex;
+    gap: $smallSpace;
+    align-items: center;
+    width: 200px;
+  }
+  .CanBut {
+    background: linear-gradient(180deg, #ef9b11 0%, #405558 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: #ffffff;
+  }
+  .OeBbut {
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+}
 
 @media screen and (min-width: 962px) {
   .none {
@@ -166,15 +220,15 @@
       }
     }
   }
-  .whatWeDo{
-      h3{
-        font-weight: bold;
-        font-size: 50px;
-      }
+  .whatWeDo {
+    h3 {
+      font-weight: bold;
+      font-size: 50px;
+    }
   }
-  .WwdLists{
-      display: flex;
-      justify-content: space-between;
+  .WwdLists {
+    display: flex;
+    justify-content: space-between;
   }
   .WwdLists-item {
     width: 31%;
@@ -182,13 +236,76 @@
     flex-direction: column;
 
     .girlholdingphone {
-      width: 77%
+      width: 77%;
     }
   }
-  .botmLine{
+  .botmLine {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+.section3 {
+  background: linear-gradient(
+    180deg,
+    rgba(239, 155, 17, 0.5) 0%,
+    rgba(64, 85, 88, 0.5) 100%
+  );
+  padding-left: $sidePadding;
+  padding-right: $sidePadding;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  h2 {
+    color: #12082D;
+    font-size: 56px;
+    padding-top: 30px;
+  }
+  p {
+    font-size: 18px;
+    color: rgba(18, 8, 45, 0.7);
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    line-height: 50px;
+    padding-top: 20px;
+  }
+  .finFree {
+    display: flex;
+    gap: $smallSpace;
+    align-items: center;
+    width: 200px;
+    h6{
+        font-size: 14px;
+    }
+  }
+  .CanBut {
+    background: linear-gradient(180deg, #ef9b11 0%, #405558 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 300px;
+    height: 70px;
+    margin-top: 1vh;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .OeBbut {
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 300px;
+    height: 70px;
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: 1vh;
+  }
+  .sec3img{
+      width: 600px;
+  }
+  .btnSpace{
       padding-top: 100px;
-      text-align: center;
+      display: flex;
   }
-  }
-
-
+}
+}

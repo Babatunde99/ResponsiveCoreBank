@@ -196,7 +196,7 @@ body {
 
 .section4 {
   background-image: url(/images/section4Bgmobile.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-top: 30px;
   padding-left: 3vw;

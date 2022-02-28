@@ -222,6 +222,54 @@
   }
 }
 
+footer {
+  background-color: #12082d;
+  padding-left: $sidePadding;
+  padding-right: $sidePadding;
+  padding-top: 10px;
+  .cBlogo {
+    width: 35vw;
+  }
+  .openP{
+    width: 80vw;
+    padding-bottom: 30px;
+  }
+  p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 33px;
+    font-family: $font1;
+  }
+  h4{
+    font-size: 12px;
+    color: #EF9B11;
+  }
+  .quickL{
+    @include flex;
+    padding-bottom: 30px;
+    width: 70vw;
+  }
+  .contactimg{
+    padding-bottom: 20px;
+    img{
+      width: 5vw;
+    }
+  }
+  .storeimg{
+    display: flex;
+    flex-direction: column;
+    img{
+      width: 40vw;
+    }
+  }
+  .customerCare{
+    padding-bottom: 30px;
+  }
+  .marq{
+    color: goldenrod;
+  }
+}
+
 @media screen and (min-width: 962px) {
   .none {
     display: flex;
@@ -450,6 +498,7 @@
     background: rgba(255, 187, 11, 0.5);
     padding-left: $sidePadding;
     padding-right: $sidePadding;
+    height: 80vh;
     .reviews {
       @include flex;
     }

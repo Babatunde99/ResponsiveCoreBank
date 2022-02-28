@@ -53,9 +53,9 @@
     display: flex;
     gap: $smallSpace;
     align-items: center;
-    .ff{
-        color: #12082D;
-        font-size: 12px;
+    .ff {
+      color: #12082d;
+      font-size: 12px;
     }
   }
   .WwdLists-item {
@@ -96,7 +96,7 @@
   display: flex;
   flex-direction: column-reverse;
   padding-bottom: 30px;
-  
+
   h2 {
     color: #ffffff;
   }
@@ -115,7 +115,7 @@
     align-items: center;
     width: 200px;
   }
-  .btnSpace{
+  .btnSpace {
     display: flex;
     flex-direction: column;
   }
@@ -147,28 +147,68 @@
   padding-left: $sidePadding;
   padding-right: $sidePadding;
   display: flex;
-  .sec4Class{
-      align-self: center;
-      padding-left: $sidePadding;
-      h6{
-        color: #EAB221;
-        font-size: 12px;
-        padding-top: 70px;
-      }
-      p{
-        color: #2F2F2F;
-        font-size: 16px;
-        font-weight: 600;
-        padding-bottom: 1px;
-      }
+  .sec4Class {
+    align-self: center;
+    padding-left: $sidePadding;
+    h6 {
+      color: #eab221;
+      font-size: 12px;
+      padding-top: 70px;
+    }
+    p {
+      color: #2f2f2f;
+      font-size: 16px;
+      font-weight: 600;
+      padding-bottom: 1px;
+    }
   }
-  .imgSec4{
+  .imgSec4 {
     padding-bottom: 0px;
     display: flex;
     flex-direction: column;
-    .firstimg{
-        padding-bottom: 10px;
+    .firstimg {
+      padding-bottom: 10px;
     }
+  }
+}
+
+.section5 {
+  background: rgba(255, 187, 11, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: $sidePadding;
+  padding-right: $sidePadding;
+  width: 100%;
+  height: 150vw;
+  padding-top: 30px;
+  h3 {
+    color: #12082d;
+    padding-bottom: 30px;
+  }
+  .oCs {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    h6 {
+      padding-left: 10px;
+    }
+  }
+  .janeDoe {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 36px;
+    h5 {
+      padding-bottom: 10px;
+    }
+    p {
+      padding-bottom: 10px;
+    }
+  }
+  .btmLine {
+    text-align: center;
+    padding-top: 20px;
   }
 }
 
@@ -351,46 +391,77 @@
       flex-direction: row;
     }
   }
-    .section4 {
-        background-image: url(/images/section4Bg.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-top: -27px;
-        width: 100%;
-
-        display: flex;
-        .iphoneimg{
-            width: 30%;
-            padding-left: 100px;
-            padding-top: 100px;
-        }
-        .sec4Class{
-            align-self: center;
-            padding-left: $sidePadding;
-            h6{
-              color: #EAB221;
-              font-size: 25px;
-              padding-top: 70px;
-            }
-            p{
-              color: #2F2F2F;
-              font-size: 50px;
-              font-weight: 600;
-              padding-bottom: 1px;
-            }
-        }
-        .imgSec4{
-          display: flex;
-          flex-direction: row;
-            .firstimg{
-                padding-top: 30px;
-                width: 300px;
-                padding-right: 100px;
-
-            }
-          }
-        }
-
-      }      
-
-
+  .section4 {
+    background-image: url(/images/section4Bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -27px;
+    width: 100%;
+    display: flex;
+    .iphoneimg {
+      width: 30%;
+      padding-left: 100px;
+      padding-top: 100px;
+    }
+    .sec4Class {
+      align-self: center;
+      padding-left: $sidePadding;
+      h6 {
+        color: #eab221;
+        font-size: 25px;
+        padding-top: 70px;
+      }
+      p {
+        color: #2f2f2f;
+        font-size: 50px;
+        font-weight: 600;
+        padding-bottom: 1px;
+      }
+    }
+    .imgSec4 {
+      display: flex;
+      flex-direction: row;
+      .firstimg {
+        padding-top: 30px;
+        width: 300px;
+        padding-right: 100px;
+      }
+    }
+  }
+  .section5 {
+    background: rgba(255, 187, 11, 0.5);
+    padding-left: $sidePadding;
+    padding-right: $sidePadding;
+    .reviews {
+      @include flex;
+    }
+    .reviews {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      border: 2px solid red;
+    }
+    .revLists {
+      background-color: #fff;
+      display: block;
+      border-radius: 10px;
+      padding-left: 20px;
+      padding-top: 20px;
+      line-height: 36px;
+    }
+    h6 {
+      font-size: 18px;
+      font-family: $font1;
+    }
+    h3 {
+      font-family: $font1;
+      font-size: 42px;
+    }
+    .btmLine {
+      display: none;
+    }
+    .oCs {
+      padding-top: 30px;
+    }
+  }
+}

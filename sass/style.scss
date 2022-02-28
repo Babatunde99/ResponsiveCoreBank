@@ -110,11 +110,16 @@
     padding-top: 20px;
   }
   .finFree {
-    display: flex;
-    gap: $smallSpace;
-    align-items: center;
-    width: 200px;
+    img {
+      width: 80vw;
+    }
   }
+  .financefreed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
   .btnSpace {
     display: flex;
     flex-direction: column;
@@ -147,6 +152,11 @@
   padding-left: $sidePadding;
   padding-right: $sidePadding;
   display: flex;
+  .iphone {
+    img {
+      width: 45vw;
+    }
+  }
   .sec4Class {
     align-self: center;
     padding-left: $sidePadding;
@@ -337,6 +347,10 @@
     padding-top: 50px;
     display: flex;
     flex-direction: row;
+    .sec3Container {
+      display: flex;
+      flex-direction: row-reverse;
+    }
     h2 {
       color: #12082d;
       font-size: 56px;
@@ -347,15 +361,16 @@
       color: rgba(18, 8, 45, 0.7);
       align-items: center;
       width: 100%;
-      max-width: 800px;
       line-height: 50px;
       padding-top: 20px;
     }
     .finFree {
       display: flex;
-      gap: $smallSpace;
       align-items: center;
-      width: 200px;
+      img {
+        width: 51vw;
+      }
+
       h6 {
         font-size: 14px;
       }
@@ -364,7 +379,7 @@
       background: linear-gradient(180deg, #ef9b11 0%, #405558 100%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       border-radius: 10px;
-      width: 300px;
+      width: 200px;
       height: 70px;
       margin-top: 1vh;
       color: #ffffff;
@@ -375,7 +390,7 @@
       box-sizing: border-box;
       background-color: transparent;
       border-radius: 10px;
-      width: 300px;
+      width: 200px;
       height: 70px;
       color: #ffffff;
       margin-left: 20px;
@@ -395,13 +410,15 @@
     background-image: url(/images/section4Bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -27px;
+    // margin-top: -27px;
     width: 100%;
     display: flex;
-    .iphoneimg {
-      width: 30%;
-      padding-left: 100px;
-      padding-top: 100px;
+    justify-content: center;
+    // border: 2px solid green;
+    .iphone {
+      img {
+        width: 20vw;
+      }
     }
     .sec4Class {
       align-self: center;
@@ -413,7 +430,7 @@
       }
       p {
         color: #2f2f2f;
-        font-size: 50px;
+        font-size: 45px;
         font-weight: 600;
         padding-bottom: 1px;
       }
@@ -421,10 +438,11 @@
     .imgSec4 {
       display: flex;
       flex-direction: row;
+      gap: 10px;
       .firstimg {
         padding-top: 30px;
-        width: 300px;
-        padding-right: 100px;
+        width: 200px;
+        // padding-right: 25px;
       }
     }
   }
@@ -439,16 +457,26 @@
       display: flex;
       justify-content: space-between;
       gap: 15px;
-      border: 2px solid red;
+      // border: 2px solid red;
     }
+
     .revLists {
-      background-color: #fff;
-      display: block;
+      background-color: #ffffff;
       border-radius: 10px;
       padding-left: 20px;
       padding-top: 20px;
       line-height: 36px;
+      // border: 2px solid blue;
+      display: block;
+
+      h5 {
+        padding-bottom: 10px;
+      }
+      p {
+        padding-bottom: 10px;
+      }
     }
+
     h6 {
       font-size: 18px;
       font-family: $font1;

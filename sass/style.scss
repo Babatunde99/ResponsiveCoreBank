@@ -230,7 +230,7 @@ footer {
   .cBlogo {
     width: 35vw;
   }
-  .openP{
+  .openP {
     width: 80vw;
     padding-bottom: 30px;
   }
@@ -240,32 +240,32 @@ footer {
     line-height: 33px;
     font-family: $font1;
   }
-  h4{
+  h4 {
     font-size: 12px;
-    color: #EF9B11;
+    color: #ef9b11;
   }
-  .quickL{
+  .quickL {
     @include flex;
     padding-bottom: 30px;
     width: 70vw;
   }
-  .contactimg{
+  .contactimg {
     padding-bottom: 20px;
-    img{
+    img {
       width: 5vw;
     }
   }
-  .storeimg{
+  .storeimg {
     display: flex;
     flex-direction: column;
-    img{
+    img {
       width: 40vw;
     }
   }
-  .customerCare{
+  .customerCare {
     padding-bottom: 30px;
   }
-  .marq{
+  .marq {
     color: goldenrod;
   }
 }
@@ -541,4 +541,32 @@ footer {
       padding-top: 30px;
     }
   }
+  
+  .mobileFooter {
+    display: none;
+  }
+  .desktopFt{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+    .letters{
+      width: 20vw;
+    }
+  
+  .quickLink{
+    @include flex;
+    width: 50vw;
+  }
+  .cBlogo{
+    width: 13vw;
+    padding-bottom: 20px;
+  }
+  .cntimg{
+    width: 2vw;
+  }
+  .appDwn{
+    width: 10vw;
+  }
+}
 }
